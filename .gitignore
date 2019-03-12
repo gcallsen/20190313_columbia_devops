@@ -2,3 +2,6 @@
 namespace_*
 dist/*
 docker/*.tar.gz
+
+*.egg-info
+__pycache__
