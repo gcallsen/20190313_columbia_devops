@@ -1,0 +1,10 @@
+version: '2'
+services:
+  # redis:
+  #   image: "pitrho/redis"
+  #   ports:
+  #     - "6379:6379"
+  worker:
+    image: myrepo/class-demo:latest
+    environment:
+      MY_ENV_VAR: Yes I Do...
