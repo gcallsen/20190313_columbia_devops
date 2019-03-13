@@ -5,6 +5,6 @@ services:
   #   ports:
   #     - "6379:6379"
   worker:
-    image: myrepo/class-demo:latest
+    image: rhoai/mecee4520-demo:latest
     environment:
       MY_ENV_VAR: Yes I Do...
